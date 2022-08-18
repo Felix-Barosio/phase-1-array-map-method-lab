@@ -18,6 +18,6 @@ const titleCased = () => {
       split.charAt(0).toUpperCase() + split.slice(1)
     )
     const result = word.join(' ')
-    return result
+    return result;
   })
 }
